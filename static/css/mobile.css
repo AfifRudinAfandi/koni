@@ -1,0 +1,175 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .navbar-top {
+        padding-top: 32px;
+        padding-bottom: 0;
+        min-height: 60px;
+    }
+    .navbar-core {
+        top: 60px;
+        padding-bottom: 16px;
+        padding-top: 16px;
+    }
+    .social-list-right {
+        padding-left: 0;
+    }
+    .social-list-right li {
+        font-size: 12px;
+        margin: 0 6px 0 6px;
+    }
+    .search-input{
+        display: none;
+    }
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("../images/toggle.svg");
+    }
+    .navbar-light .navbar-toggler {
+        color: transparent;
+        border: none;
+    }
+    .navbar-light .navbar-toggler:focus{
+        outline: none;
+    }
+    .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+        border-bottom: none;
+    }
+    .carousel-caption {
+        right: 0;
+        left: 0;
+    }
+    .carousel-indicators{
+        bottom: 130px;
+    }
+
+
+
+
+    /* ABOUT */
+    .decor-union{
+        display: none;
+    }
+    .about-koni{
+        padding-top: 38px;
+        padding-bottom: 40px;
+    }
+    .absolut-decor {
+        position: relative;
+        bottom: 36px;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .data-statistic {
+        padding-bottom: 45px;
+    }
+    .row-child{
+        justify-content: left;
+    }
+    .data-title {
+        margin-bottom: 44px;
+    }
+    .col-data{
+        margin-bottom: 38px;
+    }
+    .head-prestasi .wrapper-left {
+        flex-direction: column;
+        text-align: center;
+    }
+    .head-prestasi {
+        justify-content: center;
+    }
+    .vm-lg{
+        display: none;
+    }
+    .vm-sm{
+        display: block;
+        text-align: center;
+    }
+    .prestasi-wrapper-ic {
+        margin-right: 0;
+        margin-bottom: 22px;
+    }
+    .prestasi {
+        padding-top: 55px;
+        padding-bottom: 70px;
+    }
+    
+
+    .decore-cabang{
+        display: none;
+    }
+    .dot-decor-cabang {
+        top: auto;
+        bottom: -100px;
+        right: auto;
+        left: 22px;
+    }
+    .decor-search {
+        width: 80%;
+        height: 100px;
+        top: auto;
+        right: auto;
+        bottom: -50%;
+    }
+    .rw-cabang-olahraga {
+        padding-top: 68px;
+    }
+    .rw-cabang-olahraga .col-md-4{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-left: none !important;
+        border-right: none !important;
+    }
+    .head-cabang-olahraga {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .rw-cabang-olahraga .col-md-4:nth-last-of-type(2) {
+        border-bottom: 1px solid #0000001a;
+    }
+    .rw-cabang-olahraga .col-md-4:nth-last-of-type(3) {
+        border-bottom: 1px solid #0000001a;
+    }
+    .head-news .wrapper-left{
+        flex-direction: row;
+    }
+    .cl-list{
+        max-width: 50%;
+        margin-bottom: 20px;
+    }
+    .find-us {
+        padding-left: 0;
+        text-align: center;
+    }
+    .list-find-us {
+        justify-content: center;
+        padding-left: 0;
+    }
+    .footer-address {
+        margin-bottom: 38px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+}
