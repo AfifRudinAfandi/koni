@@ -87,12 +87,17 @@
 .absolut-decor img:nth-child(2){
     border-bottom: solid 4px #FA868A;
 }
-.wrapper-icon{
+.wrapper-icon {
     background-color: #FDF8E0;
     border-radius: 12px;
-    padding: 14px;
-    width: fit-content;
+    width: 64px;
+    height: 64px;
+    display: flex;
     margin-bottom: 22px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
 .dot-decor{
     background-color: #FA868A;

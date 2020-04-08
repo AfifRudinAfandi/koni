@@ -160,8 +160,89 @@
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-core{
+        padding-bottom: .5rem;
+    }
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("../images/toggle.svg");
+    }
+    .navbar-light .navbar-toggler {
+        color: transparent;
+        border: none;
+    }
+    .navbar-light .navbar-toggler:focus{
+        outline: none;
+    }
+    .search-input{
+        display: none;
+    }
+    .slider {
+        margin-top: 105px;
+    }
+    .carousel-caption {
+        right: 0;
+        left: 0;
+    }
+    .carousel-indicators{
+        bottom: 130px;
+    }
+    .decor-search {
+        width: 214px;
+        height: 80px;
+        top: 50%;
+        right: 0;
+    }
+    .decore-cabang {
+        width: 200px;
+        height: 200px;
+        top: 10px;
+        right: 0;
+    }
+    .dot-decor-cabang {
+        width: 68px;
+        height: 68px;
+        right: 32%;
+    }
+    .wrapper-desc .att-list {
+        font-size: 12px;
+    }
+    .rw-cabang-olahraga .col-md-4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     
+    .rw-cabang-olahraga .col-md-4:nth-child(2){
+        padding-left: 0;
+    }
+    .rw-cabang-olahraga .col-md-4:nth-child(3){
+        padding-left: 0;
+    }
+    .rw-cabang-olahraga .col-md-4:nth-child(5){
+        padding-left: 0;
+    }
+    .rw-cabang-olahraga .col-md-4:nth-child(6){
+        padding-left: 0;
+    }
+    .rw-cabang-olahraga .col-md-4:nth-child(8){
+        padding-left: 0;
+    }
+    .rw-cabang-olahraga .col-md-4:nth-child(9){
+        padding-left: 0;
+    }
+    .list-footer li a {
+        font-size: 12px;
+    }
+    .list-find-us{
+        padding-left: 0;
+    }
+    .find-us{
+        padding-left: 0;
+    }
+    .list-find-us li:nth-child(1){
+        margin-left: 0;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
