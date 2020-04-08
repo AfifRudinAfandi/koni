@@ -1,0 +1,151 @@
+.hero{
+    margin-top: 142px;
+    height: calc(80vh - 142px);
+    width: 100%;
+    position: relative;
+    background-image: url("../images/about-hero.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.wrapper-hero-title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 420px;
+    background-color: #282774;
+    padding-top: 29px;
+    padding-bottom: 29px;
+    padding-left: 29px;
+    border-radius: 6px 6px 0 0;
+    position: absolute;
+    bottom: 0;
+    margin-left: -29px;
+}
+.wrapper-hero-title img{
+    width: 72px;
+    border-radius: 18px;
+    margin-right: 19px;
+}
+.wrapper-hero-title .hero-title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    margin-bottom: 0;
+    color: #FFD500;
+}
+
+
+.data-statistic{
+    padding-top: 40px;
+    padding-bottom: 80px;
+    background-color: #FFFFFF;
+    position: relative;
+}
+.decor-line{
+    width: 64px;
+    height: 6px;
+    background-color: #FA868A;
+    position: absolute;
+    top: 0;
+}
+.data-title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #282774;
+    margin-bottom: 60px;
+}
+.row-child{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.col-data:nth-child(1) .row-child .ic-wrapper{
+    width: 72px;
+    height: 72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF9900;
+    box-shadow: 0px 8px 24px rgba(255, 153, 0, 0.35);
+    border-radius: 12px;
+    margin-right: 24px;
+}
+.col-data:nth-child(2) .row-child .ic-wrapper{
+    width: 72px;
+    height: 72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FA868A;
+    box-shadow: 0px 8px 24px rgba(250, 134, 138, 0.35);
+    border-radius: 12px;
+    margin-right: 24px;
+}
+.col-data:nth-child(3) .row-child .ic-wrapper{
+    width: 72px;
+    height: 72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #7BD7D1;
+    box-shadow: 0px 8px 24px rgba(123, 215, 209, 0.35);
+    border-radius: 12px;
+    margin-right: 24px;
+}
+.number-statistic{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 36px;
+    color: #282774;
+    margin-bottom: 10px;
+}
+.desc-number-statistic{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+    color: #282774;
+    margin-bottom: 0;
+}
+.vm .visi{
+    background-color: #F5F7F9;
+    padding-top: 99px;
+    padding-bottom: 87px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.vm .misi{
+    background-color: #FFFFFF;
+    padding-top: 99px;
+    padding-bottom: 87px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.vm-title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 38px;
+    color: #282774;
+    margin-bottom: 18px;
+}
+.vm-desc{
+    max-width: 814px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 32px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 0;
+}

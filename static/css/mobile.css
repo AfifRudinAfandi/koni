@@ -165,6 +165,25 @@
         padding-bottom: 15px;
         padding-left: 15px;
     }
+
+
+
+    /* VM */
+    .vm-desc {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .vm .visi {
+        padding-top: 47px;
+        padding-bottom: 60px;
+    }
+    .vm .misi {
+        padding-top: 47px;
+        padding-bottom: 60px;
+    }
+    .hero{
+        background-position: center;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -266,6 +285,16 @@
 
     .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
         border-bottom: none;
+    }
+
+
+    /* VM */
+    .vm-desc {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .hero{
+        background-position: center;
     }
 }
 
