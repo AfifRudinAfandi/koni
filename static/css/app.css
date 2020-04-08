@@ -1,14 +1,13 @@
 * {
   font-family: 'Poppins', sans-serif;
  }
-
-.navbar-top{
-  background-color: #FF9900;
-}
 .navbar-top{
   display: flex;
   flex-direction: row;
   align-items: center;
+  background-color: #FF9900;
+  padding-top: 4px;
+  padding-bottom: 4px;
 }
 .navbar-top-title{
   font-size: 12px;
@@ -36,17 +35,21 @@
 .navbar-core{
   background-color: #741A1D;
   padding-bottom: 0;
-  top: 43px;
+  top: 35px;
 }
 .navbar-brand{
   display: flex;
   flex-direction: row;
   align-items: center;
+  padding-bottom: 0;
+}
+.navbar-brand img{
+  width: 48px;
 }
 .title-wrapp h2{
   font-weight: 900;
   font-size: 24px;
-  line-height: 32px;
+  line-height: 28px;
   color: #FFFFFF;
   margin-bottom: 0;
 }
