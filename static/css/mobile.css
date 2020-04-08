@@ -1,5 +1,5 @@
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 767px) {
     .navbar-top {
         padding-top: 32px;
         padding-bottom: 0;
@@ -41,10 +41,6 @@
         bottom: 130px;
     }
 
-
-
-
-    /* ABOUT */
     .decor-union{
         display: none;
     }
@@ -152,6 +148,23 @@
     .footer-address {
         margin-bottom: 38px;
     }
+
+
+
+
+
+
+
+    /* ABOUT */
+    .wrapper-hero-title{
+        width: 100%;
+        margin-left: 0;
+        left: 0;
+        border-radius: 0;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 15px;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -242,6 +255,17 @@
     }
     .list-find-us li:nth-child(1){
         margin-left: 0;
+    }
+
+
+
+    /* ABOUT */
+    .hero{
+        margin-top: 105px;
+    }
+
+    .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+        border-bottom: none;
     }
 }
 
