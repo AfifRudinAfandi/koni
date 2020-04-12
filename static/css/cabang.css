@@ -1,0 +1,205 @@
+.cabang-top{
+    margin-top: 142px;
+    padding-top: 54px;
+}
+.cabang{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 8px;
+}
+
+.title-card-olahraga{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #282774;
+    margin-bottom: 0;
+}
+.card-prestasi:hover{
+    /* transform: scale(1.008); */
+    text-decoration: none;
+    box-shadow: 0px 8px 32px rgba(150, 150, 150, 0.25);
+}
+.cabang-olahraga{
+    padding-bottom: 120px;
+}
+.head-cabang-olahraga{
+    position: relative;
+    margin-bottom: 90px;
+}
+.cabang-wrapper-ic{
+    width: 72px;
+    height: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FF9900;
+    box-shadow: 0px 8px 24px rgba(255, 153, 0, 0.35);
+    border-radius: 12px;
+    margin-bottom: 24px;
+}
+.title-cabang-olahraga{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    color: #282774;
+    margin-bottom: 14px;
+    max-width: 339px;
+}
+.desc-cabang-olahraga{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 32px;
+    color: #000000;
+    margin-bottom: 0;
+    max-width: 520px;
+}
+.dot-decor-cabang{
+    width: 86px;
+    height: 86px;
+    background-image: url("../images/decor.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: calc(50% - 43px);
+    right: 40%;
+}
+.decore-cabang{
+    width: 320px;
+    height: 260px;
+    background-image: url("../images/decor-2.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.decor-search{
+    width: 320px;
+    height: 260px;
+    background-image: url("../images/search-bar.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50%;
+    right: calc(40% - 240px);
+}
+.list-cabang-name{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #282774;
+    margin-bottom: 10px;
+}
+.unknown-ic{
+    width: 56px;
+    margin-bottom: 14px;
+    margin-top: 40px;
+}
+.wrapper-desc{
+    display: flex;
+    flex-direction: row;
+}
+.wrapper-desc .att-list{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #000000;
+    margin-bottom: 40px;
+}
+.wrapper-desc .att-list:nth-child(1){
+    padding-right: 10px;
+}
+.wrapper-desc .att-list:nth-child(2){
+    padding-right: 10px;
+    padding-left: 10px;
+    border-left: 1px solid #00000060;
+    border-right: 1px solid #00000060;
+}
+.wrapper-desc .att-list:nth-child(3){
+    padding-left: 10px;
+}
+.rw-cabang-olahraga .col-md-4:nth-child(1){
+    border-bottom: 1px solid #0000001a;
+}
+.rw-cabang-olahraga .col-md-4:nth-child(2){
+    border-bottom: 1px solid #0000001a;
+    border-right: 1px solid #0000001a;
+    border-left: 1px solid #0000001a;
+    padding-left: 40px;
+}
+.rw-cabang-olahraga .col-md-4:nth-child(3){
+    border-bottom: 1px solid #0000001a;
+    padding-left: 40px;
+}
+.rw-cabang-olahraga .col-md-4:nth-child(4){
+    border-bottom: 1px solid #0000001a;
+}
+.rw-cabang-olahraga .col-md-4:nth-child(5){
+    border-bottom: 1px solid #0000001a;
+    border-right: 1px solid #0000001a;
+    border-left: 1px solid #0000001a;
+    padding-left: 40px;
+}
+.rw-cabang-olahraga .col-md-4:nth-child(6){
+    border-bottom: 1px solid #0000001a;
+    padding-left: 40px;
+}
+.rw-cabang-olahraga .col-md-4:nth-child(7){
+    border-bottom: 1px solid #0000001a;
+}
+.rw-cabang-olahraga .col-md-4:nth-child(8){
+    border-bottom: 1px solid #0000001a;
+    border-right: 1px solid #0000001a;
+    border-left: 1px solid #0000001a;
+    padding-left: 40px;
+}
+.rw-cabang-olahraga .col-md-4:nth-child(9){
+    border-bottom: 1px solid #0000001a;
+    padding-left: 40px;
+}
+.rw-cabang-olahraga .col-md-4:nth-last-of-type(1){
+    border-bottom: none;
+}
+.rw-cabang-olahraga .col-md-4:nth-last-of-type(2){
+    border-bottom: none;
+}
+.rw-cabang-olahraga .col-md-4:nth-last-of-type(3){
+    border-bottom: none;
+}
+.rw-cabang-olahraga{
+    margin-bottom: 74px;
+}
+.view-more{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #282774;
+    background: #FFFFFF;
+    border: 1px solid #F4F4F4;
+    box-sizing: border-box;
+    border-radius: 80px;
+    padding: 14px 58px;
+}
+.view-more:hover{
+    text-decoration: none;
+    box-shadow: 0px 8px 24px rgba(231, 236, 243, 0.75);
+}
+.view-more-wrapp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.trigger-branch:hover{
+    text-decoration: none;
+    background-color: #e0e0e01a;
+}

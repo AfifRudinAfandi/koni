@@ -349,6 +349,11 @@
     border-radius: 12px;
     margin-bottom: 24px;
 }
+
+.trigger-branch:hover{
+    text-decoration: none;
+    background-color: #e0e0e01a;
+}
 .title-cabang-olahraga{
     font-style: normal;
     font-weight: 600;
