@@ -354,6 +354,9 @@
     text-decoration: none;
     background-color: #F2F4F7;
 }
+.trigger-branch:hover .unknown-ic{
+    mix-blend-mode: overlay;
+}
 .title-cabang-olahraga{
     font-style: normal;
     font-weight: 600;
