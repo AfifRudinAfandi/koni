@@ -199,8 +199,11 @@
         padding-left: 14px;
         max-width: 188px;
     }
+    .jadwal-name .title-name{
+        font-size: 15px;
+    }
     .time-jadwal p {
-        font-size: 10px;
+        font-size: 8px;
     }
     .flex-data .left-data{
         max-width: 50%;
