@@ -227,6 +227,25 @@
         flex-direction: row;
         justify-content: center;
     }
+
+
+
+
+    .card-pengurus-cabang{
+        display: none;
+    }
+    .card-pengurus-cabang:nth-child(1){
+        display: block;
+    }
+    .card-pengurus-cabang:nth-child(2){
+        display: block;
+    }
+    .card-pengurus-cabang:nth-child(3){
+        display: block;
+    }
+    .content-pengurus .container .view-more-wrapp{
+        margin-top: 0;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */

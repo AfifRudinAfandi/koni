@@ -1,0 +1,102 @@
+.hero{
+    margin-top: 142px;
+    height: calc(80vh - 142px);
+    width: 100%;
+    position: relative;
+    background-image: url("../images/about-hero.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.wrapper-hero-title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 420px;
+    background-color: #282774;
+    padding-top: 29px;
+    padding-bottom: 29px;
+    padding-left: 29px;
+    border-radius: 6px 6px 0 0;
+    position: absolute;
+    bottom: 0;
+    margin-left: -29px;
+}
+.wrapper-hero-title img{
+    width: 72px;
+    border-radius: 18px;
+    margin-right: 19px;
+}
+.wrapper-hero-title .hero-title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    margin-bottom: 0;
+    color: #FFD500;
+}
+.content-kontak{
+    padding-top: 42px;
+}
+.tk-col-left{
+    position: relative;
+    padding-top: 120px;
+}
+.tk-decor-dot{
+    background-image: url("../images/decor.svg");
+    height: 86px;
+    width: 86px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    left: -8px;
+}
+.tk-decore-link{
+    position: absolute;
+    width: 320px;
+    height: 100px;
+    background-image: url("../images/search-bar.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 12px;
+    left: 0;
+}
+.tk-list-kontak{
+    list-style: none;
+    padding-left: 0;
+    max-width: 304px;
+}
+.tk-list-kontak li{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #282774;
+    margin-bottom: 38px;
+    display: flex;
+    flex-direction: row;
+}
+.tk-list-kontak li svg{
+    margin-right: 20px;
+    font-size: 16px;
+}
+.tk-find-us{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 32px;
+    color: #282774;
+}
+.wrap-find{
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+}
+.wrap-find li a{
+  color: #282774;
+  font-size: 24px;  
+  margin-right: 30px;
+}
+.wrap-find li a:hover{
+    color: #282774d8;
+    text-decoration: none;
+}
