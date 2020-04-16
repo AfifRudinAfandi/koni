@@ -246,6 +246,26 @@
     .content-pengurus .container .view-more-wrapp{
         margin-top: 0;
     }
+
+    .content-kontak .container .row{
+        flex-wrap: wrap-reverse;
+    }
+    .float-top{
+        margin-top: 0;
+        margin-bottom: 38px;
+    }
+    .wrapper-input-contact{
+        padding: 50px 24px;
+    }
+    .wrapper-input-contact  form .form-group{
+        min-height: 38px;
+    }
+    .tk-col-left{
+        padding-left: 28px;
+    }
+    .tk-decor-dot{
+        left: 14px;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -357,6 +377,14 @@
     }
     .hero{
         background-position: center;
+    }
+
+    .float-top {
+        margin-top: 0;
+        margin-bottom: 48px;
+    }
+    .wrapper-input-contact {
+        padding: 50px 24px;
     }
 }
 
