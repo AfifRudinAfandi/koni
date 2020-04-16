@@ -266,6 +266,14 @@
     .tk-decor-dot{
         left: 14px;
     }
+
+
+    .lSSlideOuter .lSPager.lSGallery img{
+        height: 60px !important;
+    }
+    #lightSlider img{
+        height: 200px !important;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
