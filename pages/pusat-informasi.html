@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Cabang Olahraga</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+
+  <!-- Custom Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icon -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+
+  <!-- Custom Css -->
+  <link href="../static/css/app.css" rel="stylesheet"/>
+  <link href="../static/css/pusat-informasi.css" rel="stylesheet"/>
+  <link href="../static/css/mobile.css" rel="stylesheet"/>
+  <link href="../static/css/lightslider.min.css" rel="stylesheet"/>
+  
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light navbar-top fixed-top">
+    <div class="container-fluid ctf">
+      <p class="navbar-top-title">Account Official KONI KAB. Lamongan</p>
+      <ul class="social-list-right">
+        <li>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <nav class="navbar navbar-expand-lg navbar-light navbar-core fixed-top">
+    <div class="container-fluid ctf-nav">
+      <a class="navbar-brand" href="#">
+        <img src="../static/images/logo.svg" class="logo mr-3" alt="">
+        <div class="title-wrapp">
+          <h2>KONI</h2>
+          <p>Kabupaten Lamongan</p>
+        </div>
+      </a>
+      <form class="form-inline search-input">
+        <input class="form-control" type="search" placeholder="Search..." aria-label="Search">
+        <button class="btn btn-search" type="submit"><i class="fas fa-search"></i></button>
+      </form>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">Beranda</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Tentang Kami</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pengurus</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pusat Informasi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Kontak Kami</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <section class="pusat-informasi">
+    <div class="container">
+        <div class="title-top-wrapper">
+            <h4 class="title-pusat-informasi">Pusat Informasi</h4>
+            <div class="dropdown dpd-sort">
+                <button class="btn btn-sort dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Sort<i class="fas fa-sort-amount-down ml-3"></i>
+                </button>
+                <div class="dropdown-menu dm-sort" id="sorts" aria-labelledby="dropdownMenuButton">
+                  <button class="dropdown-item btn">Ascending</button>
+                  <button class="dropdown-item btn active-show">Descending</button>
+                  <button class="dropdown-item btn">Date </button>
+                  <button class="dropdown-item btn">Category </button>
+                </div>
+            </div>
+        </div>
+        <div id="filters" class="wrapper-filter">  
+            <button class="btn btn-filter is-checked" data-filter="">Semua Informasi</button>
+            <button class="btn btn-filter" data-filter="">Berita Olahraga</button>
+            <button class="btn btn-filter" data-filter="">Pengumuman</button>
+            <button class="btn btn-filter" data-filter="">Gallery Kejuaraan</button>
+        </div>
+        <div class="grid">
+            <div class="grid-sizer"></div>
+            <div class="gutter-sizer"></div>
+            <div class="grid-item">
+                <div class="card-col">
+                    <div class="top-card-section">
+                        <img class="img-card" src="../static/images/card1.jpg" alt="">
+                        <h4 class="title-card-top">Berita Olahraga</h4>
+                    </div>
+                    <div class="bottom-card-section">
+                        <h4 class="title-card-bottom">Bangun Panti Tuna Netra Cerdas Bangsa</h4>
+                        <p class="publish-by"><i class="fas fa-stopwatch mr-3"></i><span>12 Februari</span> | <span>Admin</span></p>
+                        <p class="desc-card">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas Read more <a href="#">Read more</a></p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="grid-item">
+                <div class="card-col">
+                    <div class="top-card-section mb-5">
+                        <h4 class="title-card-top-2">Pengumuman</h4>
+                    </div>
+                    <div class="bottom-card-section">
+                        <h4 class="title-card-bottom">Pelaksanaan Pelatihan Rutin Cabang Olahraga VOli</h4>
+                        <p class="publish-by"><i class="fas fa-stopwatch mr-3"></i><span>12 Februari</span> | <span>Admin</span></p>
+                        <p class="desc-card">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas Read more <a href="#">Read more</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="card-col">
+                    <div class="top-card-section">
+                        <img class="img-card" src="../static/images/card1.jpg" alt="">
+                        <h4 class="title-card-top">Berita Olahraga</h4>
+                    </div>
+                    <div class="bottom-card-section">
+                        <h4 class="title-card-bottom">Bangun Panti Tuna Netra Cerdas Bangsa</h4>
+                        <p class="publish-by"><i class="fas fa-stopwatch mr-3"></i><span>12 Februari</span> | <span>Admin</span></p>
+                        <p class="desc-card">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas Read more <a href="#">Read more</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="card-col">
+                    <div class="top-card-section">
+                        <img class="img-card" src="../static/images/card1.jpg" alt="">
+                        <h4 class="title-card-top">Berita Olahraga</h4>
+                    </div>
+                    <div class="bottom-card-section">
+                        <h4 class="title-card-bottom">Bangun Panti Tuna Netra Cerdas Bangsa</h4>
+                        <p class="publish-by"><i class="fas fa-stopwatch mr-3"></i><span>12 Februari</span> | <span>Admin</span></p>
+                        <p class="desc-card">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas Read more <a href="#">Read more</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="card-col">
+                    <div class="top-card-section mb-5">
+                        <h4 class="title-card-top-2">Pengumuman</h4>
+                    </div>
+                    <div class="bottom-card-section">
+                        <h4 class="title-card-bottom">Pelaksanaan Pelatihan Rutin Cabang Olahraga VOli</h4>
+                        <p class="publish-by"><i class="fas fa-stopwatch mr-3"></i><span>12 Februari</span> | <span>Admin</span></p>
+                        <p class="desc-card">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas Read more <a href="#">Read more</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="card-col">
+                    <div class="top-card-section">
+                        <img class="img-card-galery" src="../static/images/card1.jpg" alt="">
+                        <h4 class="title-card-top-3">Gallery</h4>
+                        <h4 class="title-galery-btm">Bangun Panti Tuna Netra Cerdas Bangsa</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="view-more-wrapp">
+            <a href="#" class="btn btn-link view-more">View More</a>
+        </div>
+    </div>
+  </section>
+  <section class="sarana-prasarana">
+      <div class="container">
+          <div class="wrapper-sarpras">
+            <h4 class="title-sarpras">Sarana dan Prasarana</h4>
+            <div class="wrapper-button-next-prev">
+              <button class="btn btn-link btn-next-prev" type="button" id="goToPrevSlide"></button>
+              <button class="btn btn-link btn-next-prev" type="button" id="goToNextSlide"></button>
+            </div>
+          </div>
+      </div>
+    <div class="sarana-slider">
+        <ul id="lightSlider-2">
+            <li>
+                <div class="wrapper-item-slider">
+                    <img src="../static/images/slider-sarana1.jpg" />
+                    <div class="wrapper-btn-inside" type="button" data-toggle="modal" data-target="#exampleModalCenter">
+                        <h4 class="title-inside">Stadiun Surajaya Lamongan</h4>
+                        <a class="btn-inside" href="#">Visit Location<i class="fas fa-external-link-alt ml-2"></i></a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="wrapper-item-slider">
+                    <img src="../static/images/slider-sarana3.jpg" />
+                    <div class="wrapper-btn-inside" type="button" data-toggle="modal" data-target="#exampleModalCenter">
+                        <h4 class="title-inside">Stadiun Surajaya Lamongan</h4>
+                        <a class="btn-inside" href="#">Visit Location<i class="fas fa-external-link-alt ml-2"></i></a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="wrapper-item-slider">
+                    <img src="../static/images/slider-sarana2.jpg" />
+                    <div class="wrapper-btn-inside" type="button" data-toggle="modal" data-target="#exampleModalCenter">
+                        <h4 class="title-inside">Stadiun Surajaya Lamongan</h4>
+                        <a class="btn-inside" href="#">Visit Location<i class="fas fa-external-link-alt ml-2"></i></a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="wrapper-item-slider">
+                    <img src="../static/images/slider-sarana3.jpg" />
+                    <div class="wrapper-btn-inside" type="button" data-toggle="modal" data-target="#exampleModalCenter">
+                        <h4 class="title-inside">Stadiun Surajaya Lamongan</h4>
+                        <a class="btn-inside" href="#">Visit Location<i class="fas fa-external-link-alt ml-2"></i></a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="wrapper-item-slider">
+                    <img src="../static/images/slider-sarana2.jpg" />
+                    <div class="wrapper-btn-inside" type="button" data-toggle="modal" data-target="#exampleModalCenter">
+                        <h4 class="title-inside">Stadiun Surajaya Lamongan</h4>
+                        <a class="btn-inside" href="#">Visit Location<i class="fas fa-external-link-alt ml-2"></i></a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="wrapper-item-slider">
+                    <img src="../static/images/slider-sarana3.jpg" />
+                    <div class="wrapper-btn-inside" type="button" data-toggle="modal" data-target="#exampleModalCenter">
+                        <h4 class="title-inside">Stadiun Surajaya Lamongan</h4>
+                        <a class="btn-inside" href="#">Visit Location<i class="fas fa-external-link-alt ml-2"></i></a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+  </section>
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered " role="document">
+      <div class="modal-content modal-sarpras">
+        <div class="modal-header">
+            <img class="image-header" src="../static/images/bg-modal-sarpras.jpg">
+          <button type="button" class="close btn-modal-close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body m-body">
+            <h4 class="title-modal">Stadiun Surajaya Lamongan</h4>
+            <div class="wp-modal-body">
+                <div class="wp-item">
+                    <div class="wp-img mr-2">
+                        <img src="../static/images/people-modal.svg">
+                    </div>
+                    <div class="wp-desc">
+                        <p class="desc-card-1">Kapasitas Tampung</p>
+                        <p class="desc-card-2">410 Orang</p>
+                    </div>
+                </div>
+                <div class="wp-item">
+                    <div class="wp-img mr-2">
+                        <img src="../static/images/times.svg">
+                    </div>
+                    <div class="wp-desc">
+                        <p class="desc-card-1">Kapasitas Tampung</p>
+                        <p class="desc-card-2">410 Orang</p>
+                    </div>
+                </div>
+                <a class="btn-visit" href="#">Visit Location<i class="fas fa-external-link-alt ml-2"></i></a>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="container">
+      <div class="footer-top-wrapper">
+        <img src="../static/images/logo.svg" alt="">
+        <div class="desc-footer-ic">
+          <h3 class="koni-footer">KONI</h3>
+          <p class="koni-cabang-footer">Kabupaten Lamongan</p>
+        </div>
+      </div>
+      <div class="row pb-5">
+        <div class="col-md-5">
+          <p class="footer-address">Jl. Lamongrejo No. 24, Lantai 4 (Gedung MUI) Kec. Lamongan</p>
+        </div>
+        <div class="col-md-2 cl-list">
+          <ul class="list-footer">
+            <li><a href="about.html">Tentang Koni</a></li>
+            <li><a href="#">Program Kerja</a></li>
+            <li><a href="vm.html">Visi misi</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2 cl-list">
+          <ul class="list-footer">
+            <li><a href="#">Cabang Olahraga</a></li>
+            <li><a href="#">Pengurus</a></li>
+            <li><a href="#">Kontak Kami</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <p class="find-us">Find Us</p>
+          <ul class="list-find-us">
+            <li>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <p class="copyright">2020 © Copyrights KONI Kab. Lamongan</p>
+    </div>
+    <div class="footer-line-btm"></div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="https://masonry.desandro.com/masonry.pkgd.js"></script>
+  <script src="https://npmcdn.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+  <script src="../static/js/lightslider.min.js"></script>
+  <script>
+    $('.grid').masonry({
+    itemSelector: '.grid-item',
+    columnWidth: '.grid-sizer',
+    gutter: '.gutter-sizer',
+    percentPosition: true
+    });
+
+var windowsize = $(window).width();
+
+    if (windowsize < 601) {
+        var slider = $('#lightSlider-2').lightSlider({
+        auto:false,
+        loop:true,
+        pauseOnHover: true,
+        enableDrag: false,
+        pager: false,
+        item: 1,
+        controls:false,
+        slideMargin: 10,
+        });
+        $('#goToPrevSlide').on('click', function () {
+            slider.goToPrevSlide();
+        });
+        $('#goToNextSlide').on('click', function () {
+            slider.goToNextSlide();
+        });
+		
+	} else {
+        if (windowsize < 768) {
+            var slider = $('#lightSlider-2').lightSlider({
+            auto:false,
+            loop:true,
+            pauseOnHover: true,
+            enableDrag: false,
+            pager: false,
+            item: 2,
+            controls:false,
+            slideMargin: 10,
+            });
+            $('#goToPrevSlide').on('click', function () {
+                slider.goToPrevSlide();
+            });
+            $('#goToNextSlide').on('click', function () {
+                slider.goToNextSlide();
+            });
+        } else{
+            var slider = $('#lightSlider-2').lightSlider({
+            auto:false,
+            loop:true,
+            pauseOnHover: true,
+            enableDrag: false,
+            pager: false,
+            item: 4,
+            controls:false,
+            slideMargin: 40,
+            });
+            $('#goToPrevSlide').on('click', function () {
+                slider.goToPrevSlide();
+            });
+            $('#goToNextSlide').on('click', function () {
+                slider.goToNextSlide();
+            });
+        }
+	}
+  </script>
+</body>
+</html>
