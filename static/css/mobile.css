@@ -284,10 +284,10 @@
   .btn-visit{
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30px;
+    margin-top: 12px;
   }
   .wp-modal-body .wp-item:nth-child(1){
-      margin-bottom: 30px;
+      margin-bottom: 12px;
   }
   .wrapper-button-next-prev{
       margin-top: 14px;
@@ -301,6 +301,17 @@
   }
   .title-sarpras {
     font-size: 28px;
+}
+.m-body {
+    padding: 22px 31px;
+}
+.title-modal {
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+.wrapper-filter .btn-filter {
+    font-size: 12px;
+    padding: 12px 16px;
 }
 }
 
