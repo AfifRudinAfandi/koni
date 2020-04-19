@@ -98,3 +98,18 @@
     position: sticky;
     top: 150px;
 }
+.detail-float-pengumuman{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+    color: #909AAD;
+    margin-bottom: 0;
+}
+.detail-float-pengumuman .read-more{
+    color: #549dca;
+    font-style: italic;
+}
+.detail-float-pengumuman .read-more:hover{
+    text-decoration: underline;
+}
