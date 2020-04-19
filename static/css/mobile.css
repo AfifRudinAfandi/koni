@@ -314,6 +314,12 @@
     font-size: 12px;
     padding: 15px 16px;
 }
+.wrapper-stiky{
+    position: unset;
+}
+.db-right{
+    margin-top: 0;
+}
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
