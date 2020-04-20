@@ -8,9 +8,22 @@
     background-repeat: no-repeat;
 }
 
+
+
 /* .margin-top{
     margin-top: 142px;
 } */
+
+.bg-berita{
+    background-color: #FF9900;
+}
+.bg-pengumuman{
+    background-color: #282774;
+}
+
+
+
+
 
 .detail-berita{
     padding-top: 45px;
@@ -42,12 +55,6 @@
     border-radius: 4px;
     padding: 8px 10px;
     margin-right: 32px;
-}
-.bg-berita{
-    background-color: #FF9900;
-}
-.bg-pengumuman{
-    background-color: #282774;
 }
 .post-by{
     font-style: normal;
